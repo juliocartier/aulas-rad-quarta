@@ -1,0 +1,4 @@
+Relacao das Disciplinas do curso 
+1. RAD
+2. Introducao a C
+3. POO

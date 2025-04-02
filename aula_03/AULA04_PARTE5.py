@@ -1,0 +1,7 @@
+arquivo = open("musica.txt", 'r')
+tipos = arquivo.readlines()
+print(tipos)
+tipos.append('\nNova Linha Musical')
+arquivo = open("musica.txt", "w")
+arquivo.writelines(tipos)
+arquivo.close()

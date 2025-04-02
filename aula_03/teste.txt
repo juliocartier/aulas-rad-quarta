@@ -1,0 +1,2 @@
+Ola, mundo ;D 
+Bem-vindo ao Python.
