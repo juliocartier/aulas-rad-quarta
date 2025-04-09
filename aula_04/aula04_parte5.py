@@ -1,6 +1,7 @@
-try:
-    with open("texto_.txt", "r") as arquivo:
-        arquivo_ler = arquivo.read()
-        print(arquivo_ler)
-except FileNotFoundError:
-    print("Arquivo nao existe na pasta")
+arquivo = open("musica.txt", 'r')
+tipos = arquivo.readlines()
+print(tipos)
+tipos.append('\nNova Linha Musical')
+arquivo = open("musica.txt", "w")
+arquivo.writelines(tipos)
+arquivo.close()

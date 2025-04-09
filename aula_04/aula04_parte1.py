@@ -1,5 +1,9 @@
-try:
-    resultado = 20/0
-    print(resultado)
-except ZeroDivisionError as erro:
-    print("Erro: Nao e possivel realizar a divisao por 0", erro)
+arquivo = open("arquivo.txt")
+print("Arquivo aberto", arquivo)
+print(arquivo.name)
+print(arquivo.mode)
+print(arquivo.closed)
+
+print(arquivo.read())
+print(arquivo.seek(0))
+print(arquivo.read(8))

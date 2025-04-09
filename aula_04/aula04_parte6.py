@@ -1,8 +1,9 @@
-import os
+disciplinas = ["1. RAD\n", "2. Introducao a C\n", "3. POO\n"]
 
-try:
-    os.remove("texto_.txt")
-    print("Arquivo removido com sucesso")
-except FileNotFoundError as error:
-    print("Arquivo nao existe")
-    print("descricao do nosso erro ", error)
+with open("disciplinas.txt", "w") as arquivo:
+    arquivo.write("Relacao das Disciplinas do curso \n")
+    arquivo.writelines(disciplinas)
+
+
+with open("disciplinas.txt", "r") as arquivo:
+    print(arquivo.read())
