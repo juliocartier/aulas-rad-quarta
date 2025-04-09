@@ -1,4 +1,4 @@
-# aulas-rad-quarta
+# Disciplina de Desenvolvimento Rapido de Aplicacoes em Python
 
 Todos os codigos estao nesse repositorio.
 
