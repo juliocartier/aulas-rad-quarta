@@ -3,3 +3,6 @@ env/
 conexao_banco/
 interface_grafica/
 projeto1
+.env
+*env*
+*venv*
